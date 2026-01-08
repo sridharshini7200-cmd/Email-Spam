@@ -1,1 +1,6 @@
-# Email-Spam
+streamlit
+nltk
+sclkit-learn==1.6.1
+joblib
+pandas
+numpy
