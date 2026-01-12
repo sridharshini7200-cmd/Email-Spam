@@ -5,11 +5,12 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-# Download necessary NLTK data
-nltk.download('punkt_tab',quiet=true)
+# Download necessary NLTK data (required on Streamlit Cloud)
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
 nltk.download('wordnet', quiet=True)
+nltk.download('omw-1.4', quiet=True)
+
 
 # Load the trained model, vectorizer, and label encoder
 try:
